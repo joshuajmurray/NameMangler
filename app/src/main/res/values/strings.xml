@@ -3,4 +3,6 @@
     <string name="app_name">NameMangler</string>
     <string name="first_name">First Name:</string>
     <string name="mangel_button">Mangel!</string>
+    <string name="input_field"></string>
+    <string name="input_error">You must enter a name!</string>
 </resources>
