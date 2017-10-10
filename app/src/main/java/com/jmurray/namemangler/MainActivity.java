@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
 
     private EditText mEditText;
     private String msgOut;
+    public static final String EXTRA_MESSAGE = "com.example.myfirstapp.MESSAGE";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
                     Toast toast = Toast.makeText(getApplicationContext(), msgOut, Toast.LENGTH_SHORT);
                     toast.show();
                 } else {
-                    Intent intent = new Intent(this, Mangel.class);
+                    Intent intent = new Intent(MainActivity.this, Mangel.class);
                     intent.putExtra(EXTRA_MESSAGE, msgOut);
                     startActivity(intent);
                 }

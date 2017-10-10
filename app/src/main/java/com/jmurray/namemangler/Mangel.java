@@ -13,7 +13,7 @@ public class Mangel extends AppCompatActivity {
         setContentView(R.layout.activity_mangel);
 
         Intent intent = getIntent();
-        String msgOut = intent.getSringExtra(MainActivity.EXTRA_MESSAGE);
+        String msgOut = intent.getStringExtra(MainActivity.EXTRA_MESSAGE);
 
         Toast toast = Toast.makeText(getApplicationContext(), msgOut, Toast.LENGTH_SHORT);
         toast.show();
