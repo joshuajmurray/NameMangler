@@ -6,7 +6,4 @@
     <string name="input_error">You must enter a name!</string>
     <string name="reset_button">Reset</string>
     <string name="re_mangel_button">Re-mangel!</string>
-    <string name="mag_name">Magnificent</string>
-    <string name="stu_name">Stupendous</string>
-
 </resources>
